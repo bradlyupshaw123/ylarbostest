@@ -1,0 +1,45 @@
+.navbar {
+	background-color: Green;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+/*Style Links*/
+.navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/*Hover Color*/
+.navbar a:hover {
+	background-color: Blue;
+	color: black;
+}
+
+/*Active link color*/
+.navbar a.active {
+	background-color: Red;
+	color: white;
+}
+body {
+	background-color: Black;
+}
+h1 {
+	color: White;
+}
+p {
+	color: White;
+}
+li {
+	color: White;
+}
+h3 {
+	color: White;
+}
